@@ -1,0 +1,3 @@
+# ADO Basic Pipeline Tutorial 
+
+Lets creating your first pipeline using Azure Pipelines for building a sample application from a Git repository. The tutorial leverages YAML pipelines configured with the YAML pipeline editor and covers forking a GitHub repository, signing in to Azure DevOps, creating a new pipeline, and understanding the generated YAML code. It also demonstrates viewing and managing pipelines, adding a status badge to the repository, and provides information on pipeline run details. The tutorial concludes with additional steps for customizing and expanding the pipeline, along with links to resources for further learning and cleanup instructions. The primary focus is on Azure DevOps, YAML pipelines, and CI/CD practices.
