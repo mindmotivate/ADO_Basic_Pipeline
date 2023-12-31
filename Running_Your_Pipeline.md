@@ -43,3 +43,14 @@ In simple terms, this screen tells you how well your automated pipeline is perfo
 
 
 ![image](https://github.com/mindmotivate/ADO_Basic_Pipeline/assets/130941970/c95427e5-34f4-41dc-8d83-e44887197924)
+
+
+# View the Job Run:
+If you'd like to view the job while it runs you may do so by clicking on the job number:
+
+![image](https://github.com/mindmotivate/ADO_Basic_Pipeline/assets/130941970/5d805faa-2338-473e-9430-5ec1908332a4)
+
+![image](https://github.com/mindmotivate/ADO_Basic_Pipeline/assets/130941970/a45477a4-96b6-4d2d-ac40-9078ad2ec399)
+
+
+
