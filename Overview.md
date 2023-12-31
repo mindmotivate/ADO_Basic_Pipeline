@@ -8,6 +8,9 @@ Embark on your Azure Pipelines journey by following these steps:
 2. **Create a New Project:**
    After logging in, create a fresh project within your organization. Give it the name "Basic-Pipeline." This project will serve as our canvas for CI/CD artistry.
 
+![image](https://github.com/mindmotivate/ADO_Basic_Pipeline/assets/130941970/4461b584-9bf0-4cc4-85fb-df7596ca9bed)
+
+
 3. **Import the Example Repository:**
    Before creating the pipeline, let's import the example repository into our Azure DevOps project. Navigate to "Repos" in your new project, click on "Import," and use the following Git repository URL:
    - Repository URL: `https://github.com/MicrosoftDocs/pipelines-java`
