@@ -1,3 +1,7 @@
-# ADO Basic Pipeline Tutorial 
+# Azure Pipelines 
 
-Lets creating your first pipeline using Azure Pipelines for building a sample application from a Git repository. The tutorial leverages YAML pipelines configured with the YAML pipeline editor and covers forking a GitHub repository, signing in to Azure DevOps, creating a new pipeline, and understanding the generated YAML code. It also demonstrates viewing and managing pipelines, adding a status badge to the repository, and provides information on pipeline run details. The tutorial concludes with additional steps for customizing and expanding the pipeline, along with links to resources for further learning and cleanup instructions. The primary focus is on Azure DevOps, YAML pipelines, and CI/CD practices.
+**Azure Pipelines** is a cloud-based continuous integration and continuous delivery (CI/CD) service by Microsoft. It's the wizard behind the curtain, orchestrating the seamless and automated building, testing, and deployment of your applications.
+
+## Our Adventure with Azure Pipelines
+
+In this tutorial, we're diving headfirst into the world of Azure Pipelines. We'll unravel the mysteries of CI/CD by creating our very first pipeline. Picture it as a step-by-step magical journey where we fork a GitHub repository, dance with YAML pipelines, and conjure a spellbinding automation process. By the end, you'll not only have a working pipeline but also the skills to wield Azure Pipelines magic for your future projects. Let's make the CI/CD enchantment begin!
