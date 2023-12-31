@@ -13,3 +13,4 @@ Imagine YAML as a to-do list for a day's tasks. Each task is a step you need to 
 A `.yml` file, or YAML file, is a human-readable data serialization format. In Azure Pipelines, it acts as a configuration file that defines the steps and settings of your pipeline. When using a Maven template, a `.yml` file is generated, encapsulating instructions for building and deploying your Java application. During the pipeline setup, you'll see and interact with this YAML file on the screen, allowing customization based on your project's needs.
 
 
+![image](https://github.com/mindmotivate/ADO_Basic_Pipeline/assets/130941970/a7a7524e-ca1a-44c5-ab79-ee824ccfb943)
