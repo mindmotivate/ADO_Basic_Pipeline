@@ -6,3 +6,4 @@
 ![image](https://github.com/mindmotivate/ADO_Basic_Pipeline/assets/130941970/f67de3e9-977d-4e37-b837-6df6e1acfb54)
 
 ![image](https://github.com/mindmotivate/ADO_Basic_Pipeline/assets/130941970/13724462-c000-4604-9ee1-3262ef410574)
+ 
