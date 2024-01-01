@@ -6,8 +6,79 @@ To fortify the security measures in your pipeline, you can include tasks for Sny
    - **Purpose:** Snyk scans your Java project for known security vulnerabilities and offers actionable recommendations.
    - **Importance:** Preventing exploitation of known vulnerabilities ensures a more secure Java project.
 
-## Adding SnkyySecurity Tasks to Your Pipeline:
-   - Inside the stage, click on the "+" button to add a new task.
-   - Search for and select the "Snyk" task from the available tasks.
-   - Configure the Snyk task with the necessary settings.
+## Adding SnkykSecurity Tasks to Your Pipeline:
+   - In order to add security testing to our build we can adjust the orginal .yml file that was created in the initial project phases
+
+````
+   - # Maven
+# Build your Java project and run tests with Apache Maven.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/java
+
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+stages:
+- stage: Build
+  jobs:
+  - job: MavenBuild
+    steps:
+    - task: Maven@3
+      inputs:
+        mavenPomFile: 'pom.xml'
+        mavenOptions: '-Xmx3072m'
+        javaHomeOption: 'JDKVersion'
+        jdkVersionOption: '1.8'
+        jdkArchitectureOption: 'x64'
+        publishJUnitResults: true
+        testResultsFiles: '**/surefire-reports/TEST-*.xml'
+        goals: 'package'
+
+- stage: SnykScan  # New Security Stage
+  jobs:
+  - job: SnykScanJob
+    steps:
+    - task: SnykSecurityScan@1.3.3
+      inputs:
+        serviceConnectionEndpoint: 'Snyk-ADO'
+
+````
+
+## Here's the breakdown of what we added here:
+
+This input specifies a connection endpoint named 'Snyk-ADO.' An endpoint is like a secret handshake or key that allows the pipeline to securely communicate with external services. In this case, it's used to connect to Snyk for the security scan.  This piece of code sets up a new part of the pipeline specifically for a security check using Snyk. It tells the pipeline to run a task that performs the security scan, and it provides the necessary connection details to securely communicate with Snyk. This ensures that the security scan is seamlessly integrated into the development process without manual setup in the Azure DevOps portal.
+
+- This code snippet integrates a Snyk security scan into the pipeline.
+- It creates a dedicated stage and job for the scan.
+- It executes the SnykSecurityScan task with the necessary connection details.
+- This ensures the scan runs automatically within the pipeline, streamlining the security process.
+
+````
+stage: SnykScan  # New Security Stage
+  jobs:
+  - job: SnykScanJob
+    steps:
+    - task: SnykSecurityScan@1.3.3
+      inputs:
+        serviceConnectionEndpoint: 'Snyk-ADO'
+````
+
+### **Breaking it down:**
+
+- **`stage: SnykScan:`**
+ - This line defines a new stage in the pipeline named "SnykScan," specifically dedicated to security scanning.
+
+- **`jobs: - job: SnykScanJob:`**
+ - This section creates a job within the SnykScan stage, named "SnykScanJob." A job groups related tasks together.
+
+- **`steps: - task: SnykSecurityScan@1.3.3:`**
+ - This line specifies a single step within the SnykScanJob, which involves executing the SnykSecurityScan task (version 1.3.3).
+
+- **`inputs: serviceConnectionEndpoint: 'Snyk-ADO'`**
+ - This section provides input to the SnykSecurityScan task, specifically a connection endpoint named "Snyk-ADO." This endpoint facilitates secure communication with Snyk for the scan.
+
+
 
