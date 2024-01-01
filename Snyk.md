@@ -105,8 +105,6 @@ https://support.snyk.io/hc/en-us
 
 
 
-
-
 # Creating a Service Account in Azure DevOps for Snyk
 
 
@@ -131,12 +129,21 @@ In simpler terms, a service connection is like a VIP pass that allows different 
 
 3. **Add a New Service Connection:**
    - Find an option to add a new service connection and choose "Snyk" as the service type.
+![image](https://github.com/mindmotivate/ADO_Basic_Pipeline/assets/130941970/5fc8f5f0-c118-46c5-9fc8-bed535f9a75c)
+
+![image](https://github.com/mindmotivate/ADO_Basic_Pipeline/assets/130941970/0738ae62-6d52-41a9-a207-e5ed528f65db)
+
 
 4. **Enter Snyk Token:**
    - Go back to the Snyk website, log in, and generate a token (usually under account settings). Copy the token.
 
+![image](https://github.com/mindmotivate/ADO_Basic_Pipeline/assets/130941970/5d5e73c4-cc33-4367-bcab-ea1872f9ad35)
+
+
 5. **Copy and Paste Token:**
    - Paste the token into the Azure DevOps service connection form.
+
+![image](https://github.com/mindmotivate/ADO_Basic_Pipeline/assets/130941970/71ad0aaa-29c0-4650-8c2d-d7bfc967244b)
 
 6. **Save and Verify:**
    - Save the service connection, and there might be an option to verify if the connection is successful.
