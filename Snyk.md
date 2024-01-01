@@ -149,13 +149,12 @@ In simpler terms, a service connection is like a VIP pass that allows different 
    - Save the service connection, and there might be an option to verify if the connection is successful.
 
 
-- **Why Snyk Extension:**
+- **Snyk Extension:**
   - The Snyk extension helps keep our code secure by checking for any potential vulnerabilities in the software we build.
   - We sign up on Snyk's website to create an account, allowing us to use their tools to make sure our code is safe.
   - By connecting Snyk to our Azure DevOps project, we ensure that every time we build or deploy our software, it automatically checks for any security issues.
   - This process is crucial because it helps us catch and fix any security problems in our code early on, making sure our software is safe and trustworthy for everyone who uses it.
  
-  - 
 
 
 
