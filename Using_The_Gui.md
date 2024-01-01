@@ -16,3 +16,23 @@ We will attempt to create the same functionality with a "New Release Pipeline". 
 
 - **Flexibility:**
   - **Customizable Stages:** You have flexibility in defining multiple stages, such as development, testing, and production, tailoring the deployment process to fit your application's lifecycle.
+
+
+## Select "New Release Pipeline" 
+![image](https://github.com/mindmotivate/ADO_Basic_Pipeline/assets/130941970/010e467e-68fd-4690-8dc0-da273fd3e2c6)
+### Select empty job
+![image](https://github.com/mindmotivate/ADO_Basic_Pipeline/assets/130941970/ba8426c9-92fa-4943-b738-383c05b48f09)
+### Add the artifact which is the repo containing your project repo
+![image](https://github.com/mindmotivate/ADO_Basic_Pipeline/assets/130941970/827e5760-daab-4d3c-bef7-74dfecc7c995)
+### Add a task
+![image](https://github.com/mindmotivate/ADO_Basic_Pipeline/assets/130941970/899f12db-819e-4cb0-9f90-e9a03b90e3b7)
+### Add Agent Job
+![image](https://github.com/mindmotivate/ADO_Basic_Pipeline/assets/130941970/28fdb883-499a-497f-b576-ab480a175a0a)
+### Add Maven
+![image](https://github.com/mindmotivate/ADO_Basic_Pipeline/assets/130941970/6d209a25-7b6d-4432-8c17-9add0a18c689)
+![image](https://github.com/mindmotivate/ADO_Basic_Pipeline/assets/130941970/f9cd5cd1-5745-4d48-880f-8680be61bd7d)
+![image](https://github.com/mindmotivate/ADO_Basic_Pipeline/assets/130941970/8ef2c680-2256-419e-958a-6370f35da5da)
+
+
+
+
