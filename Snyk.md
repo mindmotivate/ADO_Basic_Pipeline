@@ -102,6 +102,37 @@ https://support.snyk.io/hc/en-us
   - Follow the provided instructions to connect to your specific repository or service.
 
 
+# Setting Up Authentication Token for Snyk
+
+Snyk requires an authentication token to ensure secure communication, especially when integrating it into CI/CD pipelines.
+
+**Step 1: Log In to Snyk Account**
+
+- Visit [Snyk's official website](https://snyk.io/) and log in to your Snyk account.
+
+**Step 2: Access Account Settings**
+
+- Once logged in, navigate to your account settings. This is typically found in the user profile or account-related section.
+
+**Step 3: Generate Token**
+
+- Look for an option like "API Tokens," "Access Tokens," or similar.
+- Choose to create a new token.
+
+**Step 4: Configure Token Permissions**
+
+- Specify the permissions for CI/CD usage, it usually needs read and/or write access to your projects and dependencies.
+
+**Step 5: Copy the Token**
+
+- After configuring permissions, the system will generate a token.
+- Copy the token to your clipboard.
+
+**Step 6: Store the Token Securely**
+
+- Treat the token like a password; it grants access to your Snyk account.
+- Store the token securely, and avoid sharing it openly.
+
 
 
 
