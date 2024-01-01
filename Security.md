@@ -81,4 +81,10 @@ stage: SnykScan  # New Security Stage
  - This section provides input to the SnykSecurityScan task, specifically a connection endpoint named "Snyk-ADO." This endpoint facilitates secure communication with Snyk for the scan.
 
 
+## This code yields the following run:
+![image](https://github.com/mindmotivate/ADO_Basic_Pipeline/assets/130941970/c2945cd8-db6a-49e9-b839-6cd78a0be5ea)
+![image](https://github.com/mindmotivate/ADO_Basic_Pipeline/assets/130941970/4e185edd-2d47-4287-aef9-e3639c204a7c)
+![image](https://github.com/mindmotivate/ADO_Basic_Pipeline/assets/130941970/03bbaacc-6e8b-467b-87a1-4fd7172b65bf)
+
+![image](https://github.com/mindmotivate/ADO_Basic_Pipeline/assets/130941970/a9978e2f-5cae-4eff-a106-54d864330b7e)
 
