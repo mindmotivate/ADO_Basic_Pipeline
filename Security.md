@@ -87,4 +87,7 @@ stage: SnykScan  # New Security Stage
 ![image](https://github.com/mindmotivate/ADO_Basic_Pipeline/assets/130941970/03bbaacc-6e8b-467b-87a1-4fd7172b65bf)
 
 ![image](https://github.com/mindmotivate/ADO_Basic_Pipeline/assets/130941970/a9978e2f-5cae-4eff-a106-54d864330b7e)
+![image](https://github.com/mindmotivate/ADO_Basic_Pipeline/assets/130941970/a8283fc3-4498-41d6-b23f-fca2c0140150)
+
+![image](https://github.com/mindmotivate/ADO_Basic_Pipeline/assets/130941970/30654613-dd71-4e0a-82bb-e0f92b4ed14d)
 
